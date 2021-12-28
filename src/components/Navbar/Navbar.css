@@ -39,7 +39,8 @@
   cursor: pointer;
 }
 
-.nav-links-div {
+.nav-links-ul {
+  list-style-type: none;
   width: 50%;
   display: flex;
   align-items: center;
