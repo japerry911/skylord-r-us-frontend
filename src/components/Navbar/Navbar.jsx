@@ -13,10 +13,18 @@ const Navbar = () => {
         />
       </div>
       <div className="nav-links-div">
-        <a className="link-btn">Home</a>
-        <a className="link-btn">About</a>
-        <a className="link-btn">Shop</a>
-        <a className="link-btn">Contact</a>
+        <a className="link-btn" href="/">
+          Home
+        </a>
+        <a className="link-btn" href="/about">
+          About
+        </a>
+        <a className="link-btn" href="/shop">
+          Shop
+        </a>
+        <a className="link-btn" href="/contact">
+          Contact
+        </a>
       </div>
       <div className="icons-right-div">
         <i className="fas fa-user-alt icons"></i>
