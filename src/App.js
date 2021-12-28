@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
-import Homepage from './pages/Homepage/Homepage';
+import Router from './routing/Router';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Navbar />
       </nav>
       <main style={{ minHeight: '100vh' }}>
-        <Homepage />
+        <Router />
       </main>
     </div>
   );

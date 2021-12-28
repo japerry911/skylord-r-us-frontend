@@ -12,20 +12,26 @@ const Navbar = () => {
           className="logo-img"
         />
       </div>
-      <div className="nav-links-div">
-        <a className="link-btn" href="/">
-          Home
-        </a>
+      <ul className="nav-links-ul">
+        <li>
+          <a className="link-btn" href="/">
+            Home
+          </a>
+        </li>
         <a className="link-btn" href="/about">
           About
         </a>
-        <a className="link-btn" href="/shop">
-          Shop
-        </a>
-        <a className="link-btn" href="/contact">
-          Contact
-        </a>
-      </div>
+        <li>
+          <a className="link-btn" href="/shop">
+            Shop
+          </a>
+        </li>
+        <li>
+          <a className="link-btn" href="/contact">
+            Contact
+          </a>
+        </li>
+      </ul>
       <div className="icons-right-div">
         <i className="fas fa-user-alt icons"></i>
         <i className="fas fa-shopping-cart icons"></i>
