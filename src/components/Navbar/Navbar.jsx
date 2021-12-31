@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import TransparentLogo250 from '../../assets/logo-transparent-250.png';
+import TransparentLogo250 from '../../assets/skylord-r-us-logo.svg';
 
 const Navbar = () => {
   return (
